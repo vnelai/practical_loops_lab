@@ -14,5 +14,20 @@ while (i <= 100){
     i++
 }
 
+// If a number is divisible by 3, log “Fizz.”
+// Case 1: (Best way in my opinion compact and efficient)
+for (i = 1; i <= 100; i++) {
+    if (i % 3 == 0) {
+        console.log(i);
+    }  
+}
 
+// Case 2:
+let i= 1;
+while (i <= 100) {
+    if (i % 3 == 0) {
+       console.log("Fizz");
+    }
+    i++ ; 
+}
 
