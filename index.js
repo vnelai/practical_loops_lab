@@ -31,3 +31,18 @@ while (i <= 100) {
     i++ ; 
 }
 
+// If a number is divisible by 5, log “Buzz.”
+// Case 1: (Best case due to efficiency)
+for (i = 1; i <=  100; i++) {
+    if (i % 5 == 0) {
+        console.log("Buzz");
+    }
+}
+
+let i = 1;
+while (i <= 100) {
+    if (i % 5 == 0) {
+        console.log("Buzz");
+    }
+    i++;
+}
