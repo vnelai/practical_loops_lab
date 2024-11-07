@@ -49,7 +49,7 @@ while (i <= 100) {
 
 
 // If a number is divisible by both 3 and 5, log “Fizz Buzz.”
-// Case 1:
+// Case 1: (Base case due to efficiency)
 for (i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("Fizz Buzz");
@@ -65,3 +65,19 @@ while (i <= 100) {
     i++ ;
 }
 
+// If a number is not divisible by either 3 or 5, log the number.
+// Case 1: (Best case due to efficiency)
+for ( let i = 1; i <= 100; i++) {
+    if (i % 3 != 0 && i % 5 != 0 ){
+        console.log(i);
+    }
+}
+
+// Case 2:
+let i = 1;
+while (i <=100){
+    if (i % 3 !=0 && i % 5 != 0) {
+        console.log(i);
+    }
+    i++;
+}
