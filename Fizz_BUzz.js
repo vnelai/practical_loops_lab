@@ -82,3 +82,16 @@ while (i <=100){
     i++;
 }
 
+
+// Part 2: Prime Time
+
+// Declare an arbitrary number, n.
+let n= 4;
+
+/* Create a loop that searches for the next prime number,
+starting at n and incrementing from there. And log that number */
+for (let i = n+1; ; i++){
+    if (n % i == 0) {
+        console.log(i)
+    } break;
+}
