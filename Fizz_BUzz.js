@@ -8,7 +8,7 @@ for (let i = 1; i <= 100; i++){
     console.log(i);
 }
 // Case 2:
-let i = 1;
+ i = 1;
 while (i <= 100){
     console.log(i);
     i++
@@ -23,7 +23,7 @@ for (i = 1; i <= 100; i++) {
 }
 
 // Case 2:
-let i= 1;
+ i= 1;
 while (i <= 100) {
     if (i % 3 == 0) {
        console.log("Fizz");
@@ -39,7 +39,7 @@ for (i = 1; i <=  100; i++) {
     }
 }
 
-let i = 1;
+ i = 1;
 while (i <= 100) {
     if (i % 5 == 0) {
         console.log("Buzz");
@@ -57,7 +57,7 @@ for (i = 1; i <= 100; i++) {
 }
 
 // Case 2:
-let i = 1;
+ i = 1;
 while (i <= 100) {
     if (i % 3 == 0 && i % 5 == 0){
         console.log("Fizz Buzz")
@@ -67,14 +67,14 @@ while (i <= 100) {
 
 // If a number is not divisible by either 3 or 5, log the number.
 // Case 1: (Best case due to efficiency)
-for ( let i = 1; i <= 100; i++) {
+for (  i = 1; i <= 100; i++) {
     if (i % 3 != 0 && i % 5 != 0 ){
         console.log(i);
     }
 }
 
 // Case 2:
-let i = 1;
+ i = 1;
 while (i <=100){
     if (i % 3 !=0 && i % 5 != 0) {
         console.log(i);
@@ -90,7 +90,7 @@ let n= 4;
 
 /* Create a loop that searches for the next prime number,
 starting at n and incrementing from there. And log that number */
-for (let i = n+1; ; i++){
+for ( i = n+1; ; i++){
     if (n % i == 0) {
         console.log(i)
     } break;
